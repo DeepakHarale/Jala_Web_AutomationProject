@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RetryfailedTestsuit and ExtentRopert]" guice-stage="DEVELOPMENT">
+  <test name="Extent (failed)">
+    <classes>
+      <class name="com.jala.qa.testcases.HomePgaeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="clickOnMultiplePageTab"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.jala.qa.testcases.HomePgaeTest -->
+      <class name="com.jala.qa.testcases.CreateEmployeeDatailsTest">
+        <methods>
+          <include name="VarifyNewEmployeeDetailsCreation"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.jala.qa.testcases.CreateEmployeeDatailsTest -->
+    </classes>
+  </test> <!-- Extent (failed) -->
+</suite> <!-- Failed suite [RetryfailedTestsuit and ExtentRopert] -->

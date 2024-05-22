@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RetryfailedTestsuit and ExtentRopert">
+	
+	
+<listeners>
+	<!--<listener class-name="com.jala.qa.retryLogicAnalyzer.RetryAnalyzer"></listener>
+	 <listener class-name="com.qa.ExtendsReportListner.ExtentReportListner"></listener>-->
+</listeners>
+  <test name="Extent ">
+    <classes>
+		
+		
+		<!--<class name="com.qa.ExtendsReportListner.ExtentReportListner"/> -->
+       <class name="com.jala.qa.testcases.LoginPageTest"/>
+        <class name="com.jala.qa.testcases.HomePgaeTest"/> 
+      <class name="com.jala.qa.testcases.CreateEmployeeDatailsTest"/>
+      <class name="com.jala.qa.testcases.MultilpleTabsTest"/>
+      <class name="com.jala.qa.testcases.MenuPageTest"/>
+       <class name="com.jala.qa.testcases.AutocompletePageTest"/>
+      
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
