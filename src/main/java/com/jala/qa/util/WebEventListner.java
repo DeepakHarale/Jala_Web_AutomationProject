@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.events.WebDriverEventListener;
+//import org.openqa.selenium.support.events.WebDriverEventListener;
 
 import com.jala.qa.base.TestBase;
 
@@ -21,7 +21,7 @@ as an when the action done (click, findBy etc).
 */
 
 
-public class WebEventListner extends TestBase implements WebDriverEventListener {
+public class WebEventListner extends TestBase  {
 
 	public WebEventListner() throws IOException {
 			
