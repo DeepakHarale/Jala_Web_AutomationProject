@@ -1,15 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test name="Default test(failed)">
+<suite name="Failed suite [RetryfailedTestsuit and ExtentRopert]" guice-stage="DEVELOPMENT">
+  <test name="Extent (failed)">
     <classes>
-      <class name="com.jala.qa.testcases.CreateEmployeeDatailsTest">
+      <class name="com.jala.qa.testcases.PopupPageTest">
         <methods>
-          <include name="VarifyNewEmployeeDetailsCreation"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="validatePopUpThree"/>
+          <include name="validatePopUpFour"/>
         </methods>
-      </class> <!-- com.jala.qa.testcases.CreateEmployeeDatailsTest -->
+      </class> <!-- com.jala.qa.testcases.PopupPageTest -->
+      <class name="com.jala.qa.testcases.LinksPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="validatelinks"/>
+        </methods>
+      </class> <!-- com.jala.qa.testcases.LinksPageTest -->
+      <class name="com.jala.qa.testcases.ImagePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validateUploadImage"/>
+        </methods>
+      </class> <!-- com.jala.qa.testcases.ImagePageTest -->
+      <class name="com.jala.qa.testcases.HomePgaeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="clickOnMultiplePageTab"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.jala.qa.testcases.HomePgaeTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Extent (failed) -->
+</suite> <!-- Failed suite [RetryfailedTestsuit and ExtentRopert] -->

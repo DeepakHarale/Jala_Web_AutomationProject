@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed May 22 10:01:19 IST 2024</td>
+<td>Started on:</td><td>Mon Jun 03 21:50:11 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (72 ms)</td>
+<tr><td>Total time:</td><td>75 seconds (75653 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,104 +67,64 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.jala.qa.testcases.CreateEmployeeDatailsTest.VarifyNewEmployeeDetailsCreation()'><b>VarifyNewEmployeeDetailsCreation</b><br>Test class: com.jala.qa.testcases.CreateEmployeeDatailsTest</td>
-<td><div><pre>java.lang.RuntimeException: java.lang.NoClassDefFoundError: org/apache/commons/io/output/UnsynchronizedByteArrayOutputStream
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NoClassDefFoundError: org/apache/commons/io/output/UnsynchronizedByteArrayOutputStream
-	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:209)
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:222)
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:185)
-	at com.jala.qa.util.TestUtil.getTestData(TestUtil.java:50)
-	at com.jala.qa.testcases.CreateEmployeeDatailsTest.testData(CreateEmployeeDatailsTest.java:43)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:55)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-	... 22 more
-Caused by: java.lang.ClassNotFoundException: org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
-	... 34 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace421637524", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace421637524'><pre>java.lang.RuntimeException: java.lang.NoClassDefFoundError: org/apache/commons/io/output/UnsynchronizedByteArrayOutputStream
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NoClassDefFoundError: org/apache/commons/io/output/UnsynchronizedByteArrayOutputStream
-	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:209)
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:222)
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:185)
-	at com.jala.qa.util.TestUtil.getTestData(TestUtil.java:50)
-	at com.jala.qa.testcases.CreateEmployeeDatailsTest.testData(CreateEmployeeDatailsTest.java:43)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:55)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-	... 22 more
-Caused by: java.lang.ClassNotFoundException: org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
-	... 34 more
-</pre></div></td>
-<td>0</td>
+<td title='com.jala.qa.testcases.CreateEmployeeDatailsTest.VarifyNewEmployeeDetailsCreation()'><b>VarifyNewEmployeeDetailsCreation</b><br>Test class: com.jala.qa.testcases.CreateEmployeeDatailsTest<br>Parameters: hema, singh, hema@gmail.com, 7.865434324E9, noida<br/>
+<a href="#Output-2038585029" onClick='toggleBox("Output-2038585029", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2038585029" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2038585029">
+Employee tab and more tab working successfully<br/>
+Employee info successfully saved<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.jala.qa.testcases.CreateEmployeeDatailsTest@6c2c1385</td></tr>
+<tr>
+<td title='com.jala.qa.testcases.CreateEmployeeDatailsTest.VarifyNewEmployeeDetailsCreation()'><b>VarifyNewEmployeeDetailsCreation</b><br>Test class: com.jala.qa.testcases.CreateEmployeeDatailsTest<br>Parameters: Raghav, kuar, raghav@gmail.con, 7.653402912E9, punjab<br/>
+<a href="#Output-1729954747" onClick='toggleBox("Output-1729954747", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1729954747" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1729954747">
+Employee tab and more tab working successfully<br/>
+Employee info successfully saved<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.jala.qa.testcases.CreateEmployeeDatailsTest@6c2c1385</td></tr>
+<tr>
+<td title='com.jala.qa.testcases.CreateEmployeeDatailsTest.VarifyNewEmployeeDetailsCreation()'><b>VarifyNewEmployeeDetailsCreation</b><br>Test class: com.jala.qa.testcases.CreateEmployeeDatailsTest<br>Parameters: nutan, jha, nutan@gmail.com, 9.876543234E9, lahor<br/>
+<a href="#Output-1520840423" onClick='toggleBox("Output-1520840423", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1520840423" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1520840423">
+Employee tab and more tab working successfully<br/>
+Employee info successfully saved<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.jala.qa.testcases.CreateEmployeeDatailsTest@6c2c1385</td></tr>
+<tr>
+<td title='com.jala.qa.testcases.CreateEmployeeDatailsTest.VarifyNewEmployeeDetailsCreation()'><b>VarifyNewEmployeeDetailsCreation</b><br>Test class: com.jala.qa.testcases.CreateEmployeeDatailsTest<br>Parameters: roky, kumar, roky@gmail.com, 8.745673423E9, ludhiyana<br/>
+<a href="#Output-1836765429" onClick='toggleBox("Output-1836765429", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1836765429" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1836765429">
+Employee tab and more tab working successfully<br/>
+Employee info successfully saved<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
 <td>com.jala.qa.testcases.CreateEmployeeDatailsTest@6c2c1385</td></tr>
 </table><p>
 </body>

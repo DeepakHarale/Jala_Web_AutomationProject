@@ -11,13 +11,19 @@
     <classes>
 		
 		
-		<!--<class name="com.qa.ExtendsReportListner.ExtentReportListner"/> -->
+		<class name="com.qa.ExtendsReportListner.ExtentReportListner"/> 
        <class name="com.jala.qa.testcases.LoginPageTest"/>
         <class name="com.jala.qa.testcases.HomePgaeTest"/> 
       <class name="com.jala.qa.testcases.CreateEmployeeDatailsTest"/>
       <class name="com.jala.qa.testcases.MultilpleTabsTest"/>
       <class name="com.jala.qa.testcases.MenuPageTest"/>
        <class name="com.jala.qa.testcases.AutocompletePageTest"/>
+          <class name="com.jala.qa.testcases.ImagePageTest"/>
+       <class name="com.jala.qa.testcases.SliderPageTest"/>
+       <class name="com.jala.qa.testcases.TooltipsPageTest"/>
+       <class name="com.jala.qa.testcases.LinksPageTest"/>
+        <class name="com.jala.qa.testcases.iFramePageTest"/>
+        <class name="com.jala.qa.testcases.PopupPageTest"/>
       
 
     </classes>
